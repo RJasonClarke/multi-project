@@ -1,6 +1,10 @@
-const myBtn = document.querySelector("#btn")
-myBtn.addEventListener("click", btnClick)
+const flipBtn = document.querySelector("#flipBtn").addEventListener("click", btnClick)
+const colorDiv = document.querySelector("#flip")
 
 function btnClick(){
-    console.log("clicked")
+    if(colorDiv.style.backgroundColor === "red"){
+        colorDiv.style.backgroundColor="white"
+    } else {
+        colorDiv.style.backgroundColor="red"
+    }
 }
