@@ -34,3 +34,27 @@ btns.forEach((btn) => {
    })
 })
 
+//Reviews
+const reviews = [
+    {
+        id: 1,
+        name: "Jason Clarke",
+        job: "Web Developer",
+        img: "NaN",
+        text: "lorem ipsum"
+    },
+    {
+        id: 2,
+        name: "Dora Clarke",
+        job: "QA Specialist",
+        img: "NaN",
+        text: "lorem ipsum"
+    },
+    {
+        id: 3,
+        name: "Hazel Clarke",
+        job: "Drama Queen",
+        img: "NaN",
+        text: "lorem ipsum"
+    }
+]
